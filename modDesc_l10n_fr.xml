@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <!-- 
+        Please contribute any other translations at 
+        https://github.com/DeckerMMIV/FarmSim_Mod_MaxiMapOverlay
+    -->
+
+    <!-- Add your own name or nickname here, when you contribute to this file's translation, so I know who to put into the credits. -->
+    <translationContributors>
+        Ma844u
+    </translationContributors>
+
+    <!-- Note that 'description' is only here for easier translations. It needs to be manually copied to ModDesc.XML later. -->
+    <description>
+        Peut afficher / cacher les types de culture et leur croissance sur la carte maximisé, sans aller dans l'écran de PDA (touche I). Si vous utilisez également le mod 'ModsSettings', les couleurs peuvent être personnalisés sur la carte.
+    </description>
+
+    <texts>
+        <!-- InputBindings - Controls -->
+        <text name="MAXIMAPOVERLAY_TOGGLE"      text="MaxiMap Overlay:Page suivante"      />
+
+        <!-- Pages -->
+        <text name="pageIntro"          text="Intro"          />
+        <text name="pageFruitTypes"     text="Type de culture"    />
+        <text name="pageGrowth"         text="Croissance"         />
+        
+        <text name="nextPageKey"        text="Touche '%s' pour accéder à la page suivante" />
+        
+        <!-- Growth states -->
+        <text name="growing1"           text="Ensemencée"               />
+        <text name="growing2"           text="Croissance"              />
+        <text name="growing3"           text="Croissance"              />
+        <text name="growing4"           text="Croissance"              />
+        <text name="growing5"           text="Croissance (patates)"   />
+        <text name="readyToPrepare1"    text="Prêt pour la récolte (retirer fanes)"    />
+        <text name="readyToPrepare2"    text="Prêt pour la récolte (retirer fanes)"    />
+        <text name="readyToPrepare3"    text="Prêt pour la récolte (retirer fanes)"    />
+        <text name="readyToHarvest1"    text="Prêt pour la récolte"     />        
+        <text name="readyToHarvest2"    text="Prêt pour la récolte"     />        
+        <text name="readyToHarvest3"    text="Prêt pour la récolte"     />        
+        <text name="withered1"          text="Fané"             />        
+        <text name="cutted1"            text="Récolte terminée"    />        
+
+        <!-- Editing -->
+        <text name="titleEdit"          text="Edite - %s"        />
+            
+        <text name="spinRed"            text="  Rouge: %.3f (%d)" />
+        <text name="spinGreen"          text="Vert: %.3f (%d)" />
+        <text name="spinBlue"           text=" Bleu: %.3f (%d)" />
+        <text name="spinAlpha"          text="Alpha: %.3f (%d)" />
+    
+        <text name="toggleVisible"      text="Basculer montrer/cacher" />
+        
+        <text name="missingModsSettingsMod" 
+              text="REMARQUE! Le mod option 'Mods Settings' n'a pas été trouvé ou ce n'est pas la version requise.
+Ainsi, vos modifications aux cultures / couleurs de croissance et la visibilité ne sera pas sauvé. "
+        />
+        
+    </texts>
+</l10n>
